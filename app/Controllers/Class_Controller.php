@@ -8,6 +8,7 @@ use App\Models\Classes;
 
 class Class_Controller extends Controller
 {
+
   public function show($id)
   {
 		$class_model = new Classes;
@@ -47,3 +48,4 @@ class Class_Controller extends Controller
 		return $this -> fail(["Not implemented"],418);
   }
   
+}

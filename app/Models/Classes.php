@@ -28,7 +28,14 @@ class Classes extends Model
 				'id' => 'comm1116',
 				'description'=>'Making up everything up on the spot',
 				'difficulty'=>'easy'
-			]
+            ] ,
+		
+        'comp4711_Antonio' =>
+            [
+                'id' => 'comp4711_Antonio',
+                'description'=>'very confusing php',
+                'difficulty'=>'super hard'
+            ]		
         ];
 
     public function find($id)
