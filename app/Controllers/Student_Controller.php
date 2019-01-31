@@ -1,19 +1,22 @@
 <?php
 
+
 namespace App\Controllers;
 use CodeIgniter\API\ResponseTrait;
+use App\Models\Student;
 use CodeIgniter\Controller;
-use App\Models\Classes;
 
-
-class Class_Controller extends Controller
+class StudentController extends Controller
 {
+   use ResponseTrait;
+
    public function show()
    {
-	   
+
    }
+
    public function index()
    {
-	   
+       echo 'hallo';
    }
 }
