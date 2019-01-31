@@ -13,7 +13,7 @@ class Student extends Model
 {
     protected $id;
     protected $description;
-    protected $favourite;
+    protected $drink;
 
     protected $data =
         [
@@ -22,7 +22,12 @@ class Student extends Model
                 'id' => 'Vincent',
                 'description'=>'Asian, tall',
                 'drink'=>'bubbletea'
-            ]
+            ],
+		'Waifu' =>
+			[
+				'id' => 'Inori',
+				'description'=>'Reserved, a good singer, relaxed',
+				'drink'=>'Matcha'
         ];
 
     public function find($id)
