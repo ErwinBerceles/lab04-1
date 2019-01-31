@@ -22,7 +22,14 @@ class Student extends Model
                 'id' => 'Vincent',
                 'description'=>'Asian, tall',
                 'drink'=>'bubbletea'
-            ]
+            ] ,
+			
+		'Watermelon' =>
+            [
+                'id' => 'Antonio',
+                'description'=>'tall man',
+                'drink'=>'starbucks'
+            ]	
         ];
 
     public function find($id)

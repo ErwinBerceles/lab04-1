@@ -10,11 +10,10 @@ class Class_Controller extends Controller
 {
    public function show()
    {
-
+	   
    }
-
    public function index()
    {
-
+	   
    }
 }
