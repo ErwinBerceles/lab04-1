@@ -13,7 +13,7 @@ class Student extends Model
 {
     protected $id;
     protected $description;
-    protected $favourite;
+    protected $drink;
 
     protected $data =
         [
