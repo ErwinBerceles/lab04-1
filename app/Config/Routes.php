@@ -73,6 +73,8 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->resource('students', ['controller' =>'Student_Controller']);
+$routes->resource('classes', ['controller' =>'App\Controllers\Classes_Controller']);
 
 /**
  * --------------------------------------------------------------------

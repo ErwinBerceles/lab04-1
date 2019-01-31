@@ -6,7 +6,7 @@ use CodeIgniter\API\ResponseTrait;
 use App\Models\Student;
 use CodeIgniter\Controller;
 
-class StudentController extends Controller
+class Student_Controller extends Controller
 {
    use ResponseTrait;
 
@@ -18,5 +18,11 @@ class StudentController extends Controller
    public function index()
    {
        echo 'hallo';
+   }
+
+   public function edit()
+   {
+
+       return $this->fail(["Not Implemented"], 200);
    }
 }
